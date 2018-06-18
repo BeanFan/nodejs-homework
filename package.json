@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-homework",
+  "version": "1.0.0",
+  "description": "nodejs home work of markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "hotnode $NODE_DEBUG_OPTION app.js",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "handlebars": "^4.0.11",
+    "handlebars-helpers": "^0.10.0",
+    "hbs": "^4.0.1",
+    "hotnode": "0.0.8",
+    "html-pdf": "^2.2.0",
+    "markdown": "^0.5.0",
+    "markdown-js": "0.0.4",
+    "markdown-pdf": "^8.1.1",
+    "morgan": "^1.9.0"
+  }
+}

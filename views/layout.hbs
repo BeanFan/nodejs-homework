@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<title>{{title}}</title>
+<link rel="stylesheet" href="/css/login.css">
+<script src="/js/login.js"> </script>
+</head>
+<body>
+
+{{#if showbutton}}
+    <button type="button"  onclick="exportPdf()" class="button gray">导出pdf1</button>
+    <button type="button"  onclick="exportPdf2()" class="button gray">导出pdf</button>
+    <button type="button"  onclick="logOut()" class="button black">退出登陆</button>
+{{/if}}
+
+
+{{{body}}}
+</body>
+</html>
